@@ -8,10 +8,10 @@ data.raw.recipe["burner-inserter"].ingredients = {{"iron-plate", 4}, {"forging-i
 data.raw.recipe["burner-inserter"].result_count = 2
 
 --Base "inserter"
-data.raw.recipe["inserter"].category = "basic-crafting"
-data.raw.recipe["inserter"].energy_required = 6
+data.raw.recipe["inserter"].category = "crafting"
+data.raw.recipe["inserter"].energy_required = 2
 data.raw.recipe["inserter"].enabled = false
-data.raw.recipe["inserter"].ingredients = {{"iron-plate", 4}, {"mechanism-0", 1}, {"electric-engine-unit", 1}}
+data.raw.recipe["inserter"].ingredients = {{"steel-plate", 2}, {"electronic-circuit", 2}, {"iron-gear-wheel", 2}, {"electric-engine-unit", 1}}
 data.raw.recipe["inserter"].result_count = 2
 
 --Base "long-handed-inserter"
@@ -53,15 +53,15 @@ data:extend(
 	result = "inserter-chemical-burner",
 	result_count = 2
 },
---Steel-Based Standard Inserter
+--Crude Inserter
 {
 	type = "recipe",
-    name = "inserter-b",
-	category = "crafting",
-	energy_required = 2,
+    name = "crude-inserter",
+	category = "basic-crafting",
+	energy_required = 6,
 	enabled = false,
-	ingredients = {{"steel-plate", 2}, {"electronic-circuit", 2}, {"iron-gear-wheel", 2}, {"electric-engine-unit", 1}},
-	result = "inserter",
+	ingredients = {{"iron-plate", 4}, {"mechanism-0", 1}, {"electric-engine-unit", 1}},
+	result = "crude-inserter",
 	result_count = 2
 },
 --Long Fast Inserter

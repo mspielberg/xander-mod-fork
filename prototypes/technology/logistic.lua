@@ -335,13 +335,13 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-a",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-b.png",
+	icon = "__xander-mod__/graphics/technology/logistic/inserter-a.png",
 	icon_size = 128,
 	effects =
 	{
 		{
 			type = "unlock-recipe",
-			recipe = "inserter"
+			recipe = "crude-inserter"
 		}
 	},
 	prerequisites = {"induction_1"},
@@ -366,7 +366,7 @@ data:extend(
 	{
 		{
 			type = "unlock-recipe",
-			recipe = "inserter-b"
+			recipe = "inserter"
 		}
 	},
 	prerequisites = {"inserter-a", "electric-engine"},

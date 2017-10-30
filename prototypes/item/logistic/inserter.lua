@@ -33,6 +33,17 @@ data:extend(
 	place_result = "inserter-chemical-burner",
 	stack_size = 50
 },
+--Crude Inserter
+{
+	type = "item",
+	name = "crude-inserter",
+	icon = "__xander-mod__/graphics/item/logistic/inserter/crude-inserter.png",
+	flags = {"goes-to-quickbar"},
+	subgroup = "inserter",
+	order = "01",
+	place_result = "crude-inserter",
+	stack_size = 50
+},
 --Base "inserter" placeholder
 	--order = "01"
 --Base "long-handed-inserter" placeholder
