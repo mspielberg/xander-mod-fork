@@ -70,9 +70,9 @@ data:extend(
 --Crude Waste Water Treatment
 {
 	type = "recipe",
-    name = "water-clarifying-a",
+	name = "water-clarifying-a",
 	icon = "__xander-mod__/graphics/recipe/waste/water-clarifying-a.png",
-	category = "chemistry",
+	category = "basic-chemistry",
 	crafting_machine_tint =
 	{
 		primary = {r = 0.000, g = 0.110, b = 0.588},
@@ -83,6 +83,8 @@ data:extend(
 	enabled = false,
 	ingredients = {{type = "fluid", name = "waste-water", amount = 80}, {"iron-ore", 1}, {"limestone", 2}},
 	results = {{"sludge", 8}},
+	--avoid using item-name.sludge as the recipe name
+	main_product = "",
 	subgroup = "waste"
 },
 --Water Clarifying
