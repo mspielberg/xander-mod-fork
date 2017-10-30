@@ -31,7 +31,7 @@ data:extend(
 	category = "crafting",
 	energy_required = 5,
 	enabled = false,
-	ingredients = {{"chemical-plant", 1}, {"glass", 20}, {"control-1", 2}, {"nickel-plate", 10}, {"pipe-monel", 20}, {"pump", 2}},
+	ingredients = {{"boiler", 1}, {"glass", 20}, {"control-1", 2}, {"steel-plate", 10}, {"pipe-steel", 20}, {"pump", 2}},
 	result = "reactor-1"
 },
 --Catalytic Chemical Reactor
